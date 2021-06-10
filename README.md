@@ -1,5 +1,5 @@
 # ProjectJavascriptBasic
-#1 BackgroundColor-Random
+#1 BackgroundColor
 .
 linksandbox: https://9dhms.csb.app/
 .
