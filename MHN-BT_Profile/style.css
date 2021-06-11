@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    color: black;
+    background-image: linear-gradient(120deg,rgb(56, 224, 210),rgb(141, 172, 83),rgba(219, 62, 62, 0.925));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 1fr 6fr;
+}
+.title {
+    grid-rows: 1/2;  
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+}
+
+h2 {
+   
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    font-size: 72px;
+    background: -webkit-linear-gradient(120deg,rgb(27, 235, 217),rgb(164, 209, 82),rgba(233, 56, 56, 0.925));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: brightness(190%);
+    border-radius: 10px;
+    box-shadow: -5px -5px 10px rgba(219, 62, 62, 0.925),
+    0px 5px 10px rgb(141, 172, 83),
+    5px 5px 20px rgb(56, 224, 210),
+    5px 5px 30px rgb(141, 172, 83);
+    cursor: pointer;
+    
+}
+
+.title h2:active {
+    filter: brightness(80%);
+    transition: all 0.1s;
+}
+
+.review {
+    grid-rows: 2/3;
+    background-color: rgba(255, 255, 255, 0.445);
+    width: 60%;
+    height: 100%;
+    margin: 50px auto;
+    border-radius: 15px;
+    padding: 50px;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 2px -1px 1px rgb(56, 224, 210),
+    8px -4px 8px rgba(0, 247, 255, 0.432),
+    8px -4px 10px rgba(0, 255, 234, 0.205);
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.review h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    white-space: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    color: rgba(36, 31, 31, 0.76);
+}
+.review p {
+    cursor: pointer;
+}
+
+.button-container {
+    margin-top: 40px;
+}
+
+.button-container button {
+    background-color: none;
+}
+
+.button-container button:nth-child(1) i {
+    color: rgba(50, 131, 124, 0.479);
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 35px;
+    margin-right: 40px;
+
+}
+.button-container button:nth-child(2) i {
+    color: rgba(50, 131, 124, 0.479);
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 35px;
+    margin-left: 40px;
+
+}
+.button-container button:nth-child(1) i:active {
+    color: rgba(61, 80, 78, 0.932);
+    background-color: rgba(0, 0, 0, 0);
+    transform: scale(1.2,1.2);
+    transform: translate(-8px);
+    transition: all 0.1s;
+}
+.button-container button:nth-child(2) i:active {
+    color: rgba(61, 80, 78, 0.932);
+    background-color: rgba(0, 0, 0, 0);
+    transform: scale(1.2,1.2);
+    transform: translate(8px);
+    transition: all 0.3s;
+}
+.prev-btn {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+.next-btn {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+.review >button  {
+    margin-top: 30px;
+    background-color: rgba(28, 161, 184, 0.089);
+    padding: 7px;
+    border-radius: 15px;
+    border: 0.1px solid rgba(61, 80, 78, 0.932);
+}
+
+.review >button:hover {
+    background-color: rgba(28, 161, 184, 0.384);
+}
+.review >button:active {
+    background-color: rgba(28, 161, 184, 0.384);
+    transform: scale(0.9,0.9);
+    filter: brightness(80%);
+    transition: all 0.1s;
+}
