@@ -14,7 +14,7 @@
 <body>
     <div class="container">
         <!-- 5 the img -->
-        <div class="picture clicked" style="background-image: url('img/bao.jpg');">
+        <div class="picture " style="background-image: url('img/bao.jpg');">
             <h2>Bao</h2>
         </div>
         <div class="picture " style="background-image: url('img/minh.jpg');">
@@ -26,18 +26,18 @@
         <div class="picture " style="background-image: url('img/hieu.jpg');">
             <h2>Hieu</h2>
         </div>
-        <div class="picture " style="background-image: url('img/tinh.jpg');">
+        <div class="picture clicked" style="background-image: url('img/tinh.jpg');">
             <h2>Tinh</h2>
         </div>
     </div>
 
     <script>
-
+/* 
         $(document).ready(function () {
             var picture = $(".picture");
             console.log(picture.length);
-            for (var i = 0; i < picture.length(); i++) {
-                picture[i].click( () => {
+            for (var i = 0; i < picture.length; i++) {
+                picture[i].click( () =>{
                     removeclicked();
                     picture[i].addClass("clicked");
                 });
@@ -45,12 +45,26 @@
 
 
             function removeclicked() {
-                for (var j = 0; j < picture.length(); j++) {
+                for (var j = 0; j < picture.length; j++) {
                     picture[j].removeClass("clicked");
                 }
             }
-        });
+        }); */
 
+        var picture = document.getElementsByClassName("picture");
+        console.log(picture.length);
+
+        for (var j = 0;j<picture.length;j++) {
+            picture[j].addEventListener('click',function () {
+                removeclass();
+                this.classList.add('clicked');
+            });
+        }
+        function removeclass () {
+            for (var i = 0;i<picture.length;i++) {
+                picture[i].classList.remove('clicked');
+            }
+        }
 
 
 
