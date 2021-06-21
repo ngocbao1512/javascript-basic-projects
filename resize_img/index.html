@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <title>resize img</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- 5 the img -->
+        <div class="picture " style="background-image: url('img/bao.jpg');">
+            <h2>Bao</h2>
+        </div>
+        <div class="picture " style="background-image: url('img/minh.jpg');">
+            <h2>Minh</h2>
+        </div>
+        <div class="picture " style="background-image: url('img/nam.jpg');">
+            <h2>Nam</h2>
+        </div>
+        <div class="picture " style="background-image: url('img/hieu.jpg');">
+            <h2>Hieu</h2>
+        </div>
+        <div class="picture clicked" style="background-image: url('img/tinh.jpg');">
+            <h2>Tinh</h2>
+        </div>
+    </div>
+
+    <script>
+/* 
+        $(document).ready(function () {
+            var picture = $(".picture");
+            console.log(picture.length);
+            for (var i = 0; i < picture.length; i++) {
+                picture[i].click( () =>{
+                    removeclicked();
+                    picture[i].addClass("clicked");
+                });
+            }
+
+
+            function removeclicked() {
+                for (var j = 0; j < picture.length; j++) {
+                    picture[j].removeClass("clicked");
+                }
+            }
+        }); */
+
+        var picture = document.getElementsByClassName("picture");
+        console.log(picture.length);
+
+        for (var j = 0;j<picture.length;j++) {
+            picture[j].addEventListener('click',function () {
+                removeclass();
+                this.classList.add('clicked');
+            });
+        }
+        function removeclass () {
+            for (var i = 0;i<picture.length;i++) {
+                picture[i].classList.remove('clicked');
+            }
+        }
+
+
+
+    </script>
+</body>
+
+</html>
