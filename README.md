@@ -22,4 +22,8 @@ linksandbox : https://wk4hb.csb.app/
 **#5 imageresize** <br>
 .linksandbox : https://6in7v.csb.app/ <br>           
 ![image](https://user-images.githubusercontent.com/63847215/122711179-f05f5a00-d28b-11eb-93f9-7498fbae880a.png)
+**#6 rotate page** <br>
+.linksandbox :https://kueby.csb.app/ <br>
+![image](https://user-images.githubusercontent.com/63847215/123499868-ed85b000-d663-11eb-972b-146d36f901cf.png)
+
 
