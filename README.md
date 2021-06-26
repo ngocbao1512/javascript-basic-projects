@@ -28,6 +28,10 @@ linksandbox : https://wk4hb.csb.app/
 **#7 hidden search** <br>
 .linksandbox : https://r8p57.csb.app/ <br>
 ![image](https://user-images.githubusercontent.com/63847215/123502662-48290700-d678-11eb-911a-2de35eea27d6.png)
+**#8 blur loading** <br>
+.linksandbox : https://3obj7.csb.app/ <br>
+![image](https://user-images.githubusercontent.com/63847215/123506530-d5775600-d68e-11eb-864f-62564c68a7ca.png)
+
 
 
 
