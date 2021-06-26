@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>rotate page</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="circle">
+            <button id="close"><i class="fas fa-times"></i></button>
+            <button id="open"><i class="fas fa-bars"></i></button>
+        </div>
+        <div class="content">
+            <p id="text" style="text-transform: uppercase; font-size: 80px; color: #42f5dd;font-weight: 800;">ngoc bao
+            </p>
+            <script>
+                var text = document.getElementById('text');
+                var shadow = '';
+                for (var i = 0; i < 20; i++) {
+                    shadow = shadow + (i / 2) + 'px    ' + (i / 3) + 'px 0 #01ded3 ,';
+                }
+                shadow = shadow + 10 + 'px  ' + 7 + 'px 0 #01ded3 ';
+                text.style.textShadow = shadow;
+            </script>
+        </div>
+    </div>
+    <div class="bar">
+        <ul>
+            <li><i class="fas fa-home"></i><a href="youtube.com">Home</a></li>
+            <li><i class="fab fa-github"></i><a href="https://github.com/ngocbao1512/js"> Github </a></li>
+            <li><i class="fab fa-facebook"></i><a href="https://www.facebook.com/MHN.BT.Dev"> Face Book</a></li>
+        </ul>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $("#open").click(function () {
+                $(".container").addClass("quay");
+            });
+            $("#close").click(function () {
+                $(".container").removeClass("quay");
+            });
+        });
+    </script>
+</body>
+
+</html>
