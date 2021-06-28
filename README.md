@@ -31,6 +31,10 @@ linksandbox : https://wk4hb.csb.app/
 **#8 blur loading** <br>
 .linksandbox : https://3obj7.csb.app/ <br>
 ![image](https://user-images.githubusercontent.com/63847215/123506530-d5775600-d68e-11eb-864f-62564c68a7ca.png)
+**#9 PUBG** <br>
+.linksandbox : https://5bd4y.csb.app/ <br>
+![image](https://user-images.githubusercontent.com/63847215/123622940-14481000-d837-11eb-831f-19b28ceb985c.png)
+
 
 
 
