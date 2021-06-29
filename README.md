@@ -34,6 +34,10 @@ linksandbox : https://wk4hb.csb.app/
 **#9 PUBG** <br>
 .linksandbox : https://5bd4y.csb.app/ <br>
 ![image](https://user-images.githubusercontent.com/63847215/123622940-14481000-d837-11eb-831f-19b28ceb985c.png)
+**#10 FAQ** <br>
+.linksandbox :https://91pgf.csb.app/ <br>
+![image](https://user-images.githubusercontent.com/63847215/123754726-c5a97d00-d8ed-11eb-95f8-febb6fc59666.png)
+
 
 
 
